@@ -1,0 +1,58 @@
+@charset "utf-8"
+body{
+    background-color: rgb(134, 134, 134);
+    margin:0px;
+    padding:0px;
+}
+h1{
+    color: white;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+section{
+    width:100%;
+    height:95vh;
+    background-color: rgb(177, 177, 177);
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:60px;
+    background-color: rgb(238, 106, 30);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    margin:30px;
+    font-family: myriad pro regular;
+    font-size:15px;
+    font-weight:700;
+}
+.logo{
+    font-family: RoadTest;
+    color:000000;
+    font-size: 22px;
+}
+.active{
+    font-weight:bold;
+    color:#2d2a2a
+}
+.about{
+    position: absolute;
+    top: 500;
+    bottom: 500;
+    left: 25%;
+    right: 25%;
+}
+.aboutinfo{
+    position: sticky;
+}
